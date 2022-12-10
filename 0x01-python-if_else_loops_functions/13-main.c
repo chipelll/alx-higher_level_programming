@@ -54,6 +54,10 @@ int main(void)
 
     insert_node(&head, 27);
 
+    insert_node(&head, (-27));
+
+    insert_node(&head, (100));
+
 
 
     print_listint(head);
